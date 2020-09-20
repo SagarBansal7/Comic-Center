@@ -18,4 +18,8 @@ This was an individual project from a course on Cluster Analysis (an unsupervise
 
 ### Analysis Summary
 
+#### 1) Understanding the Customer Behaviour:
+
+
+
 ### Statistical Analysis
