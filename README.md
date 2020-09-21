@@ -43,3 +43,53 @@ As shown in Table 7 and 8, I ran the MEANS procedure that gave the mean, standar
 In the configuration with three clusters, the first cluster has customers with minimum average amount of time spent in store, average number of items purchased and average number of visits but maximum average total purchase amount and average age, among all three clusters. The second cluster has customers with lowest mean total purchase amount but highest mean amount of time spent in store, mean number of items purchased and mean number of visits, among all clusters. The mean age of customers in this cluster is around 17 years that is almost like the mean age of customers in the third cluster. The third cluster has average amount of time spent in store, average total purchase amount, and average number of items purchased around 20.78 minutes, 24.68 dollars and 3 items, respectively. These values lie somewhat in between the corresponding average values of cluster 1 and cluster 2. The average number of visits for cluster 3 is around 1 that is similar to the average number of visits in cluster 1. Hence, I used this configuration as the final configuration for further validation.  
 
 To validate the final clusters statistically, I used comicBookAmount variable because client wanted to know spending behavior of each group on comic books. As seen in Table 9, I performed ANOVA test to confirm that the means of comicBookAmount are statistically different for the three different clusters at 5% significance level. The p-value (0.0010) came out to be less than 0.05. Hence, I reject the null hypothesis i.e., the test confirms that the mean values of comicBookAmount are statistically different for the three clusters at 5% significance level and the clusters are reasonable.
+
+### Appendix
+
+#### Figure 1:  Histogram – Comic Book Amount ($)
+![Figure 1](https://user-images.githubusercontent.com/37155988/93725963-5bef8c00-fb81-11ea-9a5e-70d6ea18e719.png)
+
+#### Figure 2:  Histogram – Time Spent in Store (min)
+![Figure 2](https://user-images.githubusercontent.com/37155988/93725964-5c882280-fb81-11ea-8f00-58d9b7fbb497.png)
+
+#### Figure 3:  Histogram – Total Purchase (dollars)
+![Figure 3](https://user-images.githubusercontent.com/37155988/93725965-5c882280-fb81-11ea-9bb2-8d0a4f8115af.png)
+
+#### Figure 4:  Histogram – Age (years)
+![Figure 4](https://user-images.githubusercontent.com/37155988/93725966-5c882280-fb81-11ea-84e9-aea4ac2a3bbe.png)
+
+#### Figure 5:  Histogram – Number of Items
+![Figure 5](https://user-images.githubusercontent.com/37155988/93725967-5c882280-fb81-11ea-8826-689016b435ab.png)
+
+#### Figure 6:  Histogram – Number of Visits
+![Figure 6](https://user-images.githubusercontent.com/37155988/93725968-5c882280-fb81-11ea-8b4d-025d6de9684e.png)
+
+#### Figure 7: Dendrogram – Cluster Analysis
+![Figure 7](https://user-images.githubusercontent.com/37155988/93725969-5d20b900-fb81-11ea-84d8-b2375a901fec.png)
+
+#### Table 1: Numerical Summary of Comic Book Amount ($)
+![Table 1](https://user-images.githubusercontent.com/37155988/93725970-5d20b900-fb81-11ea-9403-1f39397aef3a.png)
+
+#### Table 2: Numerical Summary of Time Spent in Store (min)
+![Table 2](https://user-images.githubusercontent.com/37155988/93725971-5d20b900-fb81-11ea-914e-0a4eabfe7b01.png)
+
+#### Table 3: Numerical Summary of Total Purchase (dollars)
+![Table 3](https://user-images.githubusercontent.com/37155988/93725972-5d20b900-fb81-11ea-8665-16faa241c502.png)
+
+#### Table 4: Numerical Summary of Age (years)
+![Table 4](https://user-images.githubusercontent.com/37155988/93725973-5d20b900-fb81-11ea-83c3-a3f78d8853f2.png)
+
+#### Table 5: Numerical Summary of Number of Items
+![Table 5](https://user-images.githubusercontent.com/37155988/93725974-5d20b900-fb81-11ea-95a7-c946f9b63a0b.png)
+
+#### Table 6: Numerical Summary of Number of Visits
+![Table 6](https://user-images.githubusercontent.com/37155988/93725975-5db94f80-fb81-11ea-97eb-8305fb4c5497.png)
+
+#### Table 7: The MEANS Procedure for Configuration with Three Clusters
+![Table 7](https://user-images.githubusercontent.com/37155988/93725976-5db94f80-fb81-11ea-8de4-c1b01ff6f784.png)
+
+#### Table 8: The MEANS Procedure for Configuration with Two Clusters
+![Table 8](https://user-images.githubusercontent.com/37155988/93725977-5db94f80-fb81-11ea-8c7b-bf448113510a.png)
+
+#### Table 9: The ANOVA Procedure using Comic Book Amount
+![Table 9](https://user-images.githubusercontent.com/37155988/93725978-5db94f80-fb81-11ea-9e5b-7f41be55847f.png)
